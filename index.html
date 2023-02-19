@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <h1><button>Amol Book Store</button></h1>
+      <ul class="menu">
+        <li><button id="addNewbookBtn" type="submit">Add New Book</button></li>
+        <li><button id="list" type="submit">List</button></li>
+        <li><button id="contact" type="submit">Contact</button></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <button id="date-time"></button>
+    <section class="addBookPopUp">
+      <div class="addBookContainer">
+        <form id="inputField">
+          <li>Add a New Book</li>
+          <li><input name="title" id="bookName" type="text" placeholder="enter book name" required></li>
+          <li><input name="author" id="authorName" type="text" placeholder="enter author name" required></li>
+          <li><button id="add" type="submit">Add</button></li>
+        </form>
+      </div>
+    </section>
+    <section class="bookList">
+      <h2>All Awesome Books</h2>
+    </section>
+    <section class="contact">
+      <h2>contact informaton</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio ratione natus ducimus explicabo, cum
+        consectetur! Quaerat quam!</p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <small>
+      Copyright © 2023 Insider Inc. All rights reserved. Privacy Policy and Cookies Policy
+    </small>
+  </footer>
+  <script src="localstorage.js"></script>
+</body>
+
+</html>
